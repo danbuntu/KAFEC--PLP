@@ -1,0 +1,71 @@
+/* 
+    Document   : print
+    Created on : 27-Oct-2010, 13:51:29
+    Author     : dattwood
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+
+#header {
+    display: none;
+}
+
+.headermenu {
+    display: none;
+}
+
+ .menubar {
+    display: none;
+}
+
+ .breadcrumb {
+    display: none;
+}
+
+#content {
+    background-image: none;
+}
+
+/* knocks out the blue borders that otherwise appear */
+#page {
+    background-color: white;
+        border-color: white;
+}
+
+#bluepage {
+    background-color: white;
+        border-color: white;
+}
+
+#content {
+    background-color: white;
+    border-color: white;
+}
+
+/* show the traffic light */
+#lightcolour {
+    display: block;
+}
+
+
+#footer .homelink {
+    display: none;
+}
+
+#footer .logininfo {
+    display: none;
+}
+
+#printbutton {
+    display: none;
+}

@@ -1,0 +1,81 @@
+ 
+<!-- dependencies hosted on yahooapis.com --> 
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/element/element-beta-min.js"></script> 
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/datasource/datasource-beta-min.js"></script> 
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/json/json-beta-min.js"></script> 
+<script type="text/javascript" src="http://s-moodledev/lib/yui/charts/charts-experimental-min.js"></script> 
+<script type="text/javascript">YAHOO.widget.Chart.SWFURL = "http://yui.yahooapis.com/2.4.0/build/charts/assets/charts.swf";</script> 
+ 
+<body> <!-- required! --> 
+ 
+<!-- chart container --> 
+<div id="chart" style="width: 200px; height: 200px;"></div> 
+ 
+<script type="text/javascript"> 
+ 
+    //--- data
+YAHOO.util.Event.onDOMReady(function () {
+
+// Create some shortcuts
+var DataSource = YAHOO.util.DataSource,
+    Event = YAHOO.util.Event,
+    Dom   = YAHOO.util.Dom;
+
+// this is where the data will go
+YAHOO.example.data  = null;
+
+// Pass a configuration object as the second parameter
+var myDataSource = new YAHOO.util.LocalDatasource(YAHOO.util.Dom.get("browsers");
+    myDataSource.responseType   : YAHOO.util.DataSource.TYPE_HTMLTABLE;
+    myDataSource.responseSchema = {
+        fields : [  "Browser", "Lovers" ]
+};
+ 
+var mychart = new YAHOO.widget.LineChart( "chart", myDataSource,
+{
+	xField: "month",
+	series: seriesDef,
+	yAxis: currencyAxis,
+	dataTipFunction: YAHOO.example.getDataTipText
+});
+ 
+ 
+</script>
+
+<table class="yui-table" summary="Results of a survey of what browser people love" id="browsers">
+  <caption>What browser do you love?</caption>
+  <thead>
+    <tr>
+      <th scope="col">Browser</th>
+      <th scope="col">Lovers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MSIE</td>
+      <td>221</td>
+    </tr>
+    <tr>
+      <td>Firefox</td>
+      <td>516</td>
+    </tr>
+    <tr>
+      <td>Opera</td>
+      <td>312</td>
+    </tr>
+    <tr>
+      <td>Safari</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>Omniweb</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Lynx</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table> 
+</body>

@@ -1,0 +1,1235 @@
+ 
+ 
+ 
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" xml:lang="en"><head>
+ 
+ 
+        
+ 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/theme/standard/styles.php" />
+<link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/theme/midkent_newstyle/styles.php" />
+ 
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/theme/standard/styles_ie7.css" />
+<![endif]-->
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/theme/standard/styles_ie6.css" />
+<![endif]-->
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/theme/midkent_newstyle/styles_ie7.css" />
+<![endif]-->
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/theme/midkent_newstyle/styles_ie6.css" />
+<![endif]-->
+ 
+ 
+        <meta name="keywords" content="moodle, Moodle: Nathan Schofield: PLP " />
+        <title>Moodle: Nathan Schofield: PLP</title>
+        <link rel="shortcut icon" href="http://moodledev.midkent.ac.uk/theme/midkent_newstyle/favicon.ico" />
+        <script type="text/javascript" src="http://moodledev.midkent.ac.uk/lib/speller/spellChecker.js"></script>
+<!--<style type="text/css">/*<![CDATA[*/ body{behavior:url(http://moodledev.midkent.ac.uk/lib/csshover.htc);} /*]]>*/</style>-->
+ 
+<script type="text/javascript" src="http://moodledev.midkent.ac.uk/lib/javascript-static.js"></script>
+<script type="text/javascript" src="http://moodledev.midkent.ac.uk/lib/javascript-mod.php"></script>
+<script type="text/javascript" src="http://moodledev.midkent.ac.uk/lib/overlib/overlib.js"></script>
+<script type="text/javascript" src="http://moodledev.midkent.ac.uk/lib/overlib/overlib_cssstyle.js"></script>
+<script type="text/javascript" src="http://moodledev.midkent.ac.uk/lib/cookies.js"></script>
+<script type="text/javascript" src="http://moodledev.midkent.ac.uk/lib/ufo.js"></script>
+<script type="text/javascript" src="http://moodledev.midkent.ac.uk/lib/dropdown.js"></script>  
+ 
+<script type="text/javascript" defer="defer"> 
+//<![CDATA[
+setTimeout('fix_column_widths()', 20);
+//]]>
+</script>
+<script type="text/javascript"> 
+//<![CDATA[
+function openpopup(url, name, options, fullscreen) {
+    var fullurl = "http://moodledev.midkent.ac.uk" + url;
+    var windowobj = window.open(fullurl, name, options);
+    if (!windowobj) {
+        return true;
+    }
+    if (fullscreen) {
+        windowobj.moveTo(0, 0);
+        windowobj.resizeTo(screen.availWidth, screen.availHeight);
+    }
+    windowobj.focus();
+    return false;
+}
+ 
+function uncheckall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = false;
+    }
+}
+ 
+function checkall() {
+    var inputs = document.getElementsByTagName('input');
+    for(var i = 0; i < inputs.length; i++) {
+        inputs[i].checked = true;
+    }
+}
+ 
+function inserttext(text) {
+  text = ' ' + text + ' ';
+  if ( opener.document.forms['theform'].message.createTextRange && opener.document.forms['theform'].message.caretPos) {
+    var caretPos = opener.document.forms['theform'].message.caretPos;
+    caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == ' ' ? text + ' ' : text;
+  } else {
+    opener.document.forms['theform'].message.value  += text;
+  }
+  opener.document.forms['theform'].message.focus();
+}
+ 
+function getElementsByClassName(oElm, strTagName, oClassNames){
+	var arrElements = (strTagName == "*" && oElm.all)? oElm.all : oElm.getElementsByTagName(strTagName);
+	var arrReturnElements = new Array();
+	var arrRegExpClassNames = new Array();
+	if(typeof oClassNames == "object"){
+		for(var i=0; i<oClassNames.length; i++){
+			arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames[i].replace(/\-/g, "\\-") + "(\\s|$)"));
+		}
+	}
+	else{
+		arrRegExpClassNames.push(new RegExp("(^|\\s)" + oClassNames.replace(/\-/g, "\\-") + "(\\s|$)"));
+	}
+	var oElement;
+	var bMatchesAll;
+	for(var j=0; j<arrElements.length; j++){
+		oElement = arrElements[j];
+		bMatchesAll = true;
+		for(var k=0; k<arrRegExpClassNames.length; k++){
+			if(!arrRegExpClassNames[k].test(oElement.className)){
+				bMatchesAll = false;
+				break;
+			}
+		}
+		if(bMatchesAll){
+			arrReturnElements.push(oElement);
+		}
+	}
+	return (arrReturnElements)
+}
+//]]>
+</script>
+</head><body  class="blocks-ilp course-1 dir-ltr lang-en_utf8" id="blocks-ilp-view">
+        <div id="page">
+                            <div id="header">
+                    
+ 
+<img src="/theme/midkent_newstyle/logos/logo.png" . alt="Midkent College" />
+                    
+                    </div>
+                <div class="headermenu">Wednesday 26 October, 2011<div class="logininfo">You are logged in as <a  href="http://moodledev.midkent.ac.uk/user/view.php?id=14818&amp;course=1">Dan Attwood</a>  (<a  href="http://moodledev.midkent.ac.uk/login/logout.php?sesskey=WwhLNfuk5j">Logout</a>)</div><br/><br/>
+                    
+                    </div>
+            </div>
+                    <!--  <div class="clearer">&nbsp;</div> -->        
+                <div class="menubar"><!-- MENU GOES HERE -->
+            <div>
+    <table cellpadding=0 cellspacing=0 style="width:100%;">
+        <tr>
+            <td>
+                <ul id="nav" class="dropdown dropdown-horizontal">
+                    <li id="n-left"><a href="http://moodledev.midkent.ac.uk/">Home</a></li>
+ 
+<!-- IMPORTANT don't close the first li tags if there is a ul submenu, this will bust it -->
+ 
+        <li id="n-right"><a href="http://moodledev.midkent.ac.uk/auth/mnet/jump.php?hostid=3" class="dir">Midkent<i>i</i></a></li>
+ 
+        <li id="n-right"><a href="http://moodledev.midkent.ac.uk/blocks/ilp/view.php" class="dir">My PLP</a>
+            <ul>
+                <li class="first"><a href="http://moodledev.midkent.ac.uk/user/view.php?id=&course=1">My Profile</a></li>
+                <li><a href="http://moodledev.midkent.ac.uk/calendar/view.php?view=upcoming">My Calendar</a></li>
+            </ul>
+ 
+        <li id="n-right"><a href="http://moodledev.midkent.ac.uk/course/category.php?id=36" class="dir">My PT</a></li>
+ 
+        <li><a href="https://mail.midkent.ac.uk/">My Email</a></li>
+ 
+        <li class="first"><a href="http://moodledev.midkent.ac.uk/my">My Courses</a>
+            <ul>
+                <li class="first"><a href="http://moodledev.midkent.ac.uk/course">All Courses</a></li>
+            </ul>
+ 
+        <li id="n-right"><a href="http://moodledev.midkent.ac.uk/course/view.php?id=36" class="dir">Student Support</a>
+            <ul>
+                <li><a href="http://moodledev.midkent.ac.uk/course/view.php?id=1004">Student Handbook</a></li>
+                <li><a href="https://sharepoint.midkent.ac.uk/Sites/library2/default.aspx">Learning Resource Centre</a></li>
+                <li><a href="http://moodledev.midkent.ac.uk/course/view.php?id=838">Counselling Service</a></li>
+                <li><a href="http://moodledev.midkent.ac.uk/course/view.php?id=769">Careers</a></li>
+                <li><a href="http://moodledev.midkent.ac.uk/course/view.php?id=773">Equality and Diversity</a></li>
+                <li><a href="http://mypc.midkent.ac.uk/cire">Book a PC</a></li>
+                <li class="first"><a href="http://www.direct.gov.uk/en/EducationAndLearning/UniversityAndHigherEducation/index.htm">Aim Higher</a></li>
+                <li><a href="http://www.connexions.gov.uk/index.cfm?CategoryID=11">Connexions</a></li>
+            </ul>
+ 
+        <li id="n-right"><a href="http://moodledev.midkent.ac.uk" class="dir">Additional links</a>
+            <ul>
+                <li><a href="http://moodledev.midkent.ac.uk/mod/resource/view.php?id=28197">Help and FAQS</a></li>
+                <li><a href="http://moodledev.midkent.ac.uk/mod/resource/view.php?id=24875">Student Attendance Guide</a></li>
+                <li><a href="http://moodledev.midkent.ac.uk/mod/resource/view.php?id=24876">Computer Usage Guide</a></li>
+                <li><a href="http://moodledev.midkent.ac.uk/mod/resource/view.php?id=24874">College Computer Information</a></li>
+                <li><a href="http://moodledev.midkent.ac.uk/mod/resource/view.php?id=24873">Data Protection</a></li>
+                <li><a href="https://profiler.midkent.ac.uk/Profiler4/">Skills 4 Life Profiler</a></li>
+                <li><a href="http://moodledev.midkent.ac.uk/course/view.php?id=759&cal_m=9&cal_y=2011">School Partnerships</a></li>
+            </ul>
+ 
+        <li id="n-right"><a href="http://moodledev.midkent.ac.uk/course/view.php?id=767" class="dir">Teachers' Tools Kit</a></li>
+ 
+        <li id="n-right"><a href="http://vshare.midkent.ac.uk" class="dir">.</a></li>
+ 
+<!--The closig tags below are for the 'elseif' section                        -->
+            </td>
+        </tr>
+    </table>
+</div>
+ 
+ 
+            <!-- end menu bar -->
+        </div>
+ 
+        
+        <div class="navbar">
+            <div class="breadcrumb"><h2 class="accesshide " >You are here</h2> <ul>
+<li class="first"><a  onclick="this.target='_top'" href="http://moodledev.midkent.ac.uk/">Moodle</a></li><li> <span class="accesshide " >/&nbsp;</span><span class="arrow sep">&#x25BA;</span> <a  onclick="this.target='_top'" href="http://moodledev.midkent.ac.uk/blocks/ilp/list.php?courseid=1">PLPs</a></li><li> <span class="accesshide " >/&nbsp;</span><span class="arrow sep">&#x25BA;</span> PLP</li><li> <span class="accesshide " >/&nbsp;</span><span class="arrow sep">&#x25BA;</span> Nathan Schofield</li></ul></div>
+            <div class="navbutton">&nbsp;</div>
+        </div>
+ 
+        
+        <!-- <div class="clearer">&nbsp;</div> -->
+ 
+        <div id="bluepage">
+            <div id="content">
+ 
+ 
+ 
+<!-- Load the main javscript Asynchronously-->
+<script id="myscript2" type="text/javascript"> 
+ 
+    (function() {
+        var myscript2 = document.createElement('script');
+        myscript2.type = 'text/javascript';
+        myscript2.src = ('http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/jscriptssync.js');
+        var s = document.getElementById('myscript2');
+        s.parentNode.insertBefore(myscript2, s);
+    })();
+ 
+</script>
+ 
+ 
+    <script id="myscript3" type="text/javascript"> 
+ 
+    (function() {
+        var myscript3 = document.createElement('script');
+        myscript3.type = 'text/javascript';
+        myscript3.src = ('http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/jscriptssync2.js');
+        var s = document.getElementById('myscript3');
+        s.parentNode.insertBefore(myscript3, s);
+    })();
+ 
+</script>
+    
+ 
+ 
+<!--<script>-->
+<!--(function () {-->
+<!--    var e = document.createElement('script');-->
+<!--    e.src = 'http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/jscripts.js';-->
+<!--    e.async = true;-->
+<!--    document.getElementById('fb-root').appendChild(e);-->
+<!--    document.getElementById('fb-root').appendChild(e);--
+<!--}());-->
+<!--</script>-->
+ 
+ 
+<!-- load jquery -->
+<script src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/jquery/js/jquery-1.6.2.min.js"></script><script src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/jquery/js/jquery-ui-1.8.16.custom.min.js"></script><script src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/jquery/js/jquery.multi-open-accordion-1.0.1.js"></script><script src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/jquery/js/jquery.qtip-1.0.0-rc3-dm.min.js"></script><link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/jquery/css/jquery.qtip.min.css" /><link rel="stylesheet" href="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/jquery/css/custom-theme/jquery-ui-1.8.9.custom.css"><link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/accordcss.css" /><link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/onscreen.css" media="screen"/><link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/print.css" media="print"/><!-- check if the broswer is ie 7 and load a diffrent style sheet -->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/onscreenie7.css" /><![endif]-->
+ 
+ 
+        <!-- Load the main javascript Asynchronously-->
+ 
+    <script id="myscript" type="text/javascript"> 
+ 
+(function() {
+ var myscript = document.createElement('script');
+ myscript.type = 'text/javascript';
+ myscript.src = ('http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/jscripts.js');
+ var s = document.getElementById('myscript');
+ s.parentNode.insertBefore(myscript, s);
+})();
+ 
+</script>
+ 
+ 
+<!-- start the tabs -->
+<div class="demo">
+<!-- define the tabs for the menu -->
+<div id="tabs">
+<ul>
+    <li><a href="#tabs-1">PLP</a></li>
+    <li><a href="#tabs-2">Exams</a></li>
+    <li><a href="#tabs-3">Results</a></li>
+    <li><a href="#tabs-4">Student's Progress Archive</a></li>
+    <li><a href="#tabs-5">Guardian/ Employer Access</a></li>
+    <li><a href="#tabs-6">Induction Checklist/ Campus Rules</a></li>
+    <li><a href="#tabs-7">Employability Passport</a></li>
+    <!--    <li><a href="#tabs-5">Text Student</a></li>-->
+    
+</ul>
+<div id="tabs-1">
+ 
+ 
+<!-- Begin layout table -->
+<!-- table to enclose the report and make it go full screen on firefox -->
+<table style="width: 100%;">
+<tr>
+<td>
+ 
+<div id="hidden">
+    <table width="100%">
+        <tr>
+            <td>
+                <img src="http://moodle.midkent.ac.uk/theme/midkent_newstyle/logos/logo_mid_kent_college2.png">
+ 
+            </td>
+            <td><h1>PLP for Nathan Schofield</h1></td>
+        </tr>
+    </table>
+</div>
+ 
+<!-- sits as the top of the page so that info is loaded first to dispaly latter, ie the photo -->
+<div id="flightplan">
+ 
+SELECT * FROM mdl_user WHERE id='7272' AND description='Acoount created as part of Guardian insert'test07050697<img src="templates/custom/flightplan_graph.php?var1=07050697">
+<br/>
+ 
+<div id="headerDivImg">
+    <a id="imageDivLink" href="javascript:toggle5('contentDivImg', 'imageDivLink', 'Add a flightplan score');"><img
+            src="/blocks/ilp/templates/custom/pix/plus.png"><b>Add a flightplan score</b></a>
+</div>
+<div id="contentDivImg" style="display: none;">
+ 
+    <h2>Submit a flightplan review</h2>
+    <table>
+        <tr>
+            <td style="width:200px;">
+                <form method="post"
+                      action="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/flightplan_add.php?stuid=7272&courseid=1">
+                    Select review score
+                    <select id="reviewScore" name="reviewScore">
+                        <option class="">-</option>
+                        <option class="" style="color:#00FF00">6</option>
+                        <option class="" style="color:#32CC00">5</option>
+                        <option class="" style="color:#669900">4</option>
+                        <option class="" style="color:#996600">3</option>
+                        <option class="" style="color:#CC3300">2</option>
+                        <option class="" style="color:#FF0000">1</option>
+                    </select>
+ 
+            </td>
+            <td style="width:2px;">
+                <input type="hidden" id="studentnum" name="studentnum" value="07050697">
+                <input id="submitFlightplan" type="submit" name="submitFlightplan" value="submit_change"/>
+                </form>
+            </td>
+        </tr>
+    </table>
+ 
+    <table>
+        <tr class="darkblue">
+            <th>Score</th>
+            <th>Description</th>
+        </tr>
+        <tr class="lightblue">
+            <td><b>6</b></td>
+            <td>6	The student is working above his/her Personal Best</td>
+        </tr>
+        <tr class="yellow">
+            <td><b>5</b></td>
+            <td>The student working at his/her Personal Best</td>
+        </tr>
+        <tr class="lightblue">
+            <td><b>4</b></td>
+            <td>The student is working above his/her Minimum Target  Grade</td>
+        </tr>
+        <tr class="yellow">
+            <td><b>3</b></td>
+            <td>The student is working at his/her Minimum Target  Grade</td>
+        </tr>
+        <tr class="lightblue">
+            <td><b>2</b></td>
+            <td>The student is working below his/her Minimum Target  Grade</td>
+        </tr>
+        <tr class="yellow">
+            <td><b>1</b></td>
+            <td>The student is working well below his/her Minimum Target  Grade</td>
+        </tr>
+    </table>
+ 
+    <table>
+        <tr>
+            </td>
+            <td>
+                Edit previous scores >
+            </td>
+            <td>
+                <form method="post"
+                      action="/blocks/ilp/templates/custom/flightplan_edit.php?student=07050697&stunum=7272&courseid=1">
+                    <input id="editFlightplan" type="submit" name="editFlightplan" value="submit_change"/>
+                </form>
+ 
+        </tr>
+    </table>
+ 
+ 
+</div>
+ 
+ 
+ 
+<!--Script to run the submit button graphic - doesn't work when added to the main js script files-->
+<script type="text/javascript"> 
+    $(document).ready(function() {
+        $('#submitFlightplan').hover(function() {
+            $(this).addClass('mhover')
+        }, function() {
+            $(this).removeClass('mhover');
+        });
+ 
+        $('#editFlightplan').hover(function() {
+            $(this).addClass('mhover')
+        }, function() {
+            $(this).removeClass('mhover');
+        });
+    });
+</script>
+ 
+<br/><table width="100%" style="text-align: center;"><tr class="darkblue"><th>Tutor MTG</th><th>Personal Best</th><th>MTG from MIS</th></tr><tr class="lightblue"><td></td><td></td><td>N/A</td></tr><tr><th class="darkblue">Primary Qual type</th><td class="yellow" colspan="2"></td></tr><tr><th class="darkblue">QCA Points</th><td class="yellow" colspan="2">QCA points from MIS not available</td></tr></tr></table>
+<a href="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/Flight_Plan_Prior_Attainment_Calculator.xlsm"><img
+        src="/blocks/ilp/templates/custom/pix/download_icon.png" width="25" height="25">Download
+    the Prior Attainment Calculator Spread Sheet</a><br/>
+<a href="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/Guide_to_setting_MTGs.xlsx"><img
+        src="/blocks/ilp/templates/custom/pix/download_icon.png" width="25" height="25">Download
+    the Guide to setting the MTG</a>
+<br/>
+<b></b><a href="https://gateway.lsc.gov.uk/VADT/AttainmentCalculator.aspx"><img
+        src="/blocks/ilp/templates/custom/pix/link.png" width="25" height="25">Online prior
+    calculator</a></b><br/>
+username: isp\College Account <br/>
+password: MidKent2011
+ 
+<br/>
+ 
+<div id="MTGHeaderDivImg">
+    <a id="imageDivLink2"
+       href="javascript:toggle5('MTGContentDivImg', 'imageDivLink2', 'Add or Amend Personal Best/ Tutor set MTG');"><img
+            src="/blocks/ilp/templates/custom/pix/plus.png"><b>Add or Amend Personal Best/ Tutor set MTG</b></a>
+</div>
+<div id="MTGContentDivImg" style="display: none;">
+ 
+    <h2>Add/ Alter the Personal Best/ Tutor set MTG</h2>
+    The above MIS MTG is calculated based on:<br/>
+    <table>
+        <tr>
+            <td style="width:200px;">
+                <form method="post" action="">
+                    <b>Tutor set MTG</b>
+                    <input type="text" name="tutormtg" id="mtg" value=""/>
+                    <b>Personal Best</b>
+                    <input type="text" name="mtg" id="mtg" value=""/>
+ 
+ 
+            </td>
+            <td style="width:2px;">
+                <input type="hidden" id="studentnum" name="studentnum" value="07050697">
+                <input id="submitMTG" type="submit" name="submitMTG" value="submit_change"/>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Help</th>
+        </tr>
+        <tr>
+            <td>
+                <b>Tutor Set MTG:</b> For use when the MIS generated MTG is not available. Tutors/students should use
+                the prior attainment calculator to establish their average points score (APS) from their prior
+                qualifications. The APS is then used to establish the MTG using the ‘guide to setting the MTG’.
+                <br/><b>Personal Best:</b> This is the ‘aspirational’ target which should be agreed between tutor and
+                student at the first student review.
+ 
+            </td>
+        </tr>
+ 
+ 
+    </table>
+ 
+</div>
+    
+<!--Script to run the submit button graphic - doesn't work when added to the main js script files-->
+<script type="text/javascript"> 
+    $(document).ready(function() {
+        $('#submitMTG').hover(function() {
+            $(this).addClass('mhover')
+        }, function() {
+            $(this).removeClass('mhover');
+        });
+    });
+</script>
+ 
+<script type="text/javascript"> 
+    $(document).ready(function() {
+        $('#submitTutorMTG').hover(function() {
+            $(this).addClass('mhover')
+        }, function() {
+            $(this).removeClass('mhover');
+        });
+    });
+</script>
+<br/><h2>Induction checklist not finished<img src="./templates/custom/pix/delete-icon.png" width="32" height="32"/></h2><div id="parental">I have completed all the tasks on the induction checklist and agree to abide by the campus rules (click the tick below)Only students can click the tick</p><input id="removeInduction" type="submit" name="removeInduction" value="submit_change"/></div>
+<!--Script to run the submit button graphic - doesn't work when added to the main js script files-->
+<script type="text/javascript"> 
+    $(document).ready(function() {
+        $('#removeInduction').hover(function() {
+            $(this).addClass('mhover')
+        }, function() {
+            $(this).removeClass('mhover');
+        });
+    });
+</script>
+<div style="text-align: center; font-family: Verdana, Geneva, Arial, Helvetica; font-size: 32px; color: gold;">Attendance 0%<br/><small><small>Attendance None Registered</small></small></div><table width="100%" style="text-align: center"><tr class="darkblue"><th colspan="3">Attendance in the last 3 weeks</th></tr><tr class="lightblue"><th>Possible Sessions</th><th>Absent Sessions</th><th>Percentage</th></tr><tr class="yellow"><td>0</td><td></td><td>0%</td></tr></table><div id="MTGHeaderDivImg3">
+    <a id="imageDivLink3" href="javascript:toggle5('MTGContentDivImg3', 'imageDivLink3', '3 Week Breakdown');"><img
+            src="/blocks/ilp/templates/custom/pix/plus.png"><b>3 Week Breakdown</b></a>
+</div>
+<div id="MTGContentDivImg3" style="display: none;">
+ 
+    <!-- Explain the marks-->
+    <p/>
+    <table>
+        <tr width="100%" class="darkblue">
+            <th>Mark</th>
+            <th>Explanation</th>
+        </tr>
+        <tr class="lightblue">
+            <td>/</td>
+            <td>Present in class</td>
+        </tr>
+        <tr class="yellow">
+            <td>A</td>
+            <td>Authorised Absence</td>
+        </tr>
+        <tr class="lightblue">
+            <td>L</td>
+            <td>Late to class (number denotes minutes late)</td>
+        </tr>
+        <tr class="yellow">
+            <td>O</td>
+            <td>Absent</td>
+        </tr>
+        <tr class="lightblue">
+            <td>D</td>
+            <td>Disruptive in class</td>
+        </tr>
+        <tr class="yellow">
+            <td>C</td>
+            <td>Early Completer</td>
+        </tr>
+        <tr class="lightblue">
+            <td>E</td>
+            <td>Exam/Trip/Rehearsal/Show/Event</td>
+        </tr>
+        <tr class="yellow">
+            <td>I</td>
+            <td>Authorised Illness</td>
+        </tr>
+        <tr class="lightblue">
+            <td>R</td>
+            <td>Religious Holiday</td>
+        </tr>
+        <tr class="yellow">
+            <td>W</td>
+            <td>Withdrawn</td>
+        </tr>
+        <tr class="lightblue">
+            <td>X</td>
+            <td>Left Class Early</td>
+        </tr>
+    </table>
+ 
+</div>
+<h2>Guardian/ Employer Agreement not signed <img src="./templates/custom/pix/delete-icon.png" width="32" height="32"/></h2><a href="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/Parent_Carer_support_agreement_Revision_10.pdf" ><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/download_icon.png" width="32" height="32" > Download a copy of the parental agreement for signing</a><br/><a href="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/Employer_contract.pdf" ><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/download_icon.png" width="32" height="32" > Download a copy of the employer agreement for signing</a></br>
+ 
+       
+<form method="post"
+      action="/blocks/ilp/templates/custom/parental_process.php?student=07050697&stunum=7272&courseid=1">
+    <input type="hidden" id="studentnum" name="studentnum" value="07050697">
+ 
+    <div id="parental">The Parental/ employer agreement isn't applicable for this student</p>
+        <input id="removeParental" type="submit" name="removeParental" value="submit_change"/>
+    </div>
+</form>
+ 
+<!--Script to run the submit button graphic - doesn't work when added to the main js script files-->
+<script type="text/javascript"> 
+    $(document).ready(function() {
+        $('#removeParental').hover(function() {
+            $(this).addClass('mhover')
+        }, function() {
+            $(this).removeClass('mhover');
+        });
+    });
+</script>
+    <div id="multiOpenAccordion5" style="text-align: center;">
+    </div>
+    <div id="multiOpenAccordion2">
+<h3 class="cast"><a href="javascript:void()">Achievements</a></h3><div>Hover the mouse over a badge to see the award criteria<br/><form id="medals" action="./templates/custom/badges/selectbadge.php?var1=Nathan Schofield&var2=sto14015&var3=7272&var4=1" method="post"><input type="submit" value="Edit Badges"></form></div>    </div>
+    <div id="multiOpenAccordion4">
+<h3 class="cast"><a href="javascript:void()">Learner Details</a></h3><div><table></table></div><h3 class="cast"><a href="javascript:void()">Contact Details</a></h3><div><table></table></div><h3 class="cast"><a href="javascript:void()">Other</a></h3><div><table></table></div><h3><a href="javascript:void()"><font color="#70A02B">Student Support</font></a></h3><div><b>Learner ref: </b>07050697<br><b>CAST Team: </b>Maidstone<br><b>Cast tutor: </b>Linda Kyle<br><b>Equipment needed:</b><p>none<br/><b>Differentiation needs:</b><p>Nathan has social and emotional weaknesses but is willing to interact within group activities. <br />
+He may also benefit from<br />
+keeping instructions simple, clear instructions  in small chunks<br />
+Giving advanced warning of any changes within his programme<br />
+Keeping information as visual as possible<br/><h3>Allowed Exam Concessions</h3>Extra time up to 25%<br/>00<br/><b>Other concession details:</b></p><br/><b>Difficulties</b><br/>20 - Autism Spectrum Disorder01 - Moderate difficulties<br/><b>Support needs</b><br/>98 - No Disability10 - Aspergers Syndrome<br/><b>Other support: <b/></div>#cast2Array
+(
+    [Castdetails] => Array
+        (
+            [Cast_Id] => 54
+            [Learner_ref] => 07050697
+            [Site] => Maidstone
+            [Cast_Tutor] => Linda Kyle
+            [Other_Support] => 
+            [Differentiation] => 
+            [Equipment] => 
+            [Concessions] => 
+            [Concessions_Other] => 
+            [Difficulties] => 01 - Moderate difficulties<br/>20 - Autism Spectrum Disorder<br/>
+            [Support_Needs] => 98 - No Disability<br/>10 - Aspergers Syndrome<br/>
+        )
+ 
+    [Targets] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 129
+                    [id] => 129
+                    [1] => 2
+                    [objective_number] => 2
+                    [2] => BY February 07 Nathan will confirm his use of the new format for his assessment sheets to ensure they are of the expected standard to pass his qualification
+                    [objective] => BY February 07 Nathan will confirm his use of the new format for his assessment sheets to ensure they are of the expected standard to pass his qualification
+                    [3] => Completed assessment sheets, tutor comments, PLP
+                    [success] => Completed assessment sheets, tutor comments, PLP
+                    [4] => 2011-02-07 12:00:00
+                    [date_to_achieve] => 2011-02-07 12:00:00
+                    [5] => 0
+                    [achieved] => 0
+                    [6] => Linda Kyle
+                    [set_by] => Linda Kyle
+                    [7] => 
+                    [date_achieved] => 
+                    [8] => PLP and sign off and completed assessment sheets
+                    [evidence] => PLP and sign off and completed assessment sheets
+                    [9] => 2011-01-20 10:25:55
+                    [modified] => 2011-01-20 10:25:55
+                    [10] => 2011-01-20 10:25:55
+                    [created] => 2011-01-20 10:25:55
+                    [11] => 54
+                    [student_id] => 54
+                )
+ 
+            [1] => Array
+                (
+                    [0] => 128
+                    [id] => 128
+                    [1] => 1
+                    [objective_number] => 1
+                    [2] => By the review date in January Nathan will be able to confirm that he has completed all assignments and tasks to the expected standard and within the hand in dates.
+                    [objective] => By the review date in January Nathan will be able to confirm that he has completed all assignments and tasks to the expected standard and within the hand in dates.
+                    [3] => Course notes and guides, internet, liaison with course tutors and review meetings with CAST tutor
+                    [success] => Course notes and guides, internet, liaison with course tutors and review meetings with CAST tutor
+                    [4] => 2011-01-29 12:00:00
+                    [date_to_achieve] => 2011-01-29 12:00:00
+                    [5] => 0
+                    [achieved] => 0
+                    [6] => Linda Kyle
+                    [set_by] => Linda Kyle
+                    [7] => 2011-01-20 12:00:00
+                    [date_achieved] => 2011-01-20 12:00:00
+                    [8] => Confirmation from course tutors and PLP
+ 
+Nathan confirmed that he is up to date with his work and tasks
+                    [evidence] => Confirmation from course tutors and PLP
+ 
+Nathan confirmed that he is up to date with his work and tasks
+                    [9] => 2011-01-20 10:22:58
+                    [modified] => 2011-01-20 10:22:58
+                    [10] => 2010-10-11 14:58:44
+                    [created] => 2010-10-11 14:58:44
+                    [11] => 54
+                    [student_id] => 54
+                )
+ 
+        )
+ 
+    [Reviews] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 102
+                    [id] => 102
+                    [1] => 2011-04-28 00:00:00
+                    [date_of_review] => 2011-04-28 00:00:00
+                    [2] => Nathan is a CAST review learner 
+No in class facilitator support
+Exam concession of up to 25% extra time 
+                    [support_to_date] => Nathan is a CAST review learner 
+No in class facilitator support
+Exam concession of up to 25% extra time 
+                    [3] => DNA - review completed in Nathan's absence. No facilitator reports to refer to. PLP only showed his attendance which was excellent at 96% 
+                    [notes] => DNA - review completed in Nathan's absence. No facilitator reports to refer to. PLP only showed his attendance which was excellent at 96% 
+                    [4] => Assumed no changes required at this time 
+                    [details_of_changes] => Assumed no changes required at this time 
+                    [5] => 2011-04-28 08:15:00
+                    [created] => 2011-04-28 08:15:00
+                    [6] => Linda Kyle
+                    [reviewer] => Linda Kyle
+                    [7] => 
+Assumed still working towards his set target as no information available to the contrary
+                    [performance_against_targets] => 
+Assumed still working towards his set target as no information available to the contrary
+                    [8] => 
+No new targets set as assumed Nathan is working at the expected standard to gain his qualification.
+Left message on mobile for Nathan to contact me with his progression plans for September
+                    [new_targets] => 
+No new targets set as assumed Nathan is working at the expected standard to gain his qualification.
+Left message on mobile for Nathan to contact me with his progression plans for September
+                    [9] => 2011-04-28 08:23:12
+                    [modified] => 2011-04-28 08:23:12
+                    [10] => 54
+                    [student_id] => 54
+                )
+ 
+            [1] => Array
+                (
+                    [0] => 101
+                    [id] => 101
+                    [1] => 2011-02-07 00:00:00
+                    [date_of_review] => 2011-02-07 00:00:00
+                    [2] => Nathan is a CAST review learner 
+No in class facilitator support
+Exam concession of up to 25% extra time 
+                    [support_to_date] => Nathan is a CAST review learner 
+No in class facilitator support
+Exam concession of up to 25% extra time 
+                    [3] => DNA - review completed in Nathan's absence. No facilitator reports to refer to. PLP only showed his attendance which was excellent at 98%
+                    [notes] => DNA - review completed in Nathan's absence. No facilitator reports to refer to. PLP only showed his attendance which was excellent at 98%
+                    [4] => Assumed no changes required at this time
+                    [details_of_changes] => Assumed no changes required at this time
+                    [5] => 2011-02-07 16:04:34
+                    [created] => 2011-02-07 16:04:34
+                    [6] => Linda Kyle
+                    [reviewer] => Linda Kyle
+                    [7] => Working towards his set target
+                    [performance_against_targets] => Working towards his set target
+                    [8] => 
+                    [new_targets] => 
+                    [9] => 2011-02-07 16:04:34
+                    [modified] => 2011-02-07 16:04:34
+                    [10] => 54
+                    [student_id] => 54
+                )
+ 
+            [2] => Array
+                (
+                    [0] => 100
+                    [id] => 100
+                    [1] => 2011-01-20 00:00:00
+                    [date_of_review] => 2011-01-20 00:00:00
+                    [2] => Nathan is a CAST tutor review student
+He does not have an in class facilitator
+His exam concession is up to 25% extra time
+                    [support_to_date] => Nathan is a CAST tutor review student
+He does not have an in class facilitator
+His exam concession is up to 25% extra time
+                    [3] => Nathan is enjoying his course and feels he is progressing well. He feels he is coping well with the written work and feels he is keeping up with all tasks. The new look assessment form format may benefit him writing up his assessments tasks. This will be reviewed again on the 07 February.
+                    [notes] => Nathan is enjoying his course and feels he is progressing well. He feels he is coping well with the written work and feels he is keeping up with all tasks. The new look assessment form format may benefit him writing up his assessments tasks. This will be reviewed again on the 07 February.
+                    [4] => Nathan does not feel that his support needs to be changed at this point 
+                    [details_of_changes] => Nathan does not feel that his support needs to be changed at this point 
+                    [5] => 2011-01-20 10:16:56
+                    [created] => 2011-01-20 10:16:56
+                    [6] => Linda Kyle
+                    [reviewer] => Linda Kyle
+                    [7] => Nathan confirmed that he is up to date with assessment and they are to the expected standard to pass the qualification
+                    [performance_against_targets] => Nathan confirmed that he is up to date with assessment and they are to the expected standard to pass the qualification
+                    [8] => By 07 February Nathan will be able to confirm his completion of his assessment sheets to the expected standard
+                    [new_targets] => By 07 February Nathan will be able to confirm his completion of his assessment sheets to the expected standard
+                    [9] => 2011-01-20 10:29:57
+                    [modified] => 2011-01-20 10:29:57
+                    [10] => 54
+                    [student_id] => 54
+                )
+ 
+            [3] => Array
+                (
+                    [0] => 99
+                    [id] => 99
+                    [1] => 2010-10-19 00:00:00
+                    [date_of_review] => 2010-10-19 00:00:00
+                    [2] => Nathan is a CAST tutor review student
+He does not have in class facilitation
+He has up to 25% extra time as exam concession
+                    [support_to_date] => Nathan is a CAST tutor review student
+He does not have in class facilitation
+He has up to 25% extra time as exam concession
+                    [3] => Nathan is satisfied with the level of support he is receiving now and does not want any changes as yet
+                    [notes] => Nathan is satisfied with the level of support he is receiving now and does not want any changes as yet
+                    [4] => none
+                    [details_of_changes] => none
+                    [5] => 2010-10-19 10:04:04
+                    [created] => 2010-10-19 10:04:04
+                    [6] => Linda Kyle
+                    [reviewer] => Linda Kyle
+                    [7] => Nathan is working well in class and meeting deadlines for handing in work tasks. He is acheiving work to the required standards
+                    [performance_against_targets] => Nathan is working well in class and meeting deadlines for handing in work tasks. He is acheiving work to the required standards
+                    [8] => Nathan will continue to work to meet deadline and to the required standards to acheive his qualification at year end
+                    [new_targets] => Nathan will continue to work to meet deadline and to the required standards to acheive his qualification at year end
+                    [9] => 2010-10-19 10:04:04
+                    [modified] => 2010-10-19 10:04:04
+                    [10] => 54
+                    [student_id] => 54
+                )
+ 
+        )
+ 
+)
+<br/><br/><h3><a href="javascript:void()"><font color="#70A02B">Student Support</font></a></h3><div><table><tr class="lightblue"><th>Cast Id</th><td>54</td></tr><tr class="yellow"><th>Learner ref</th><td>07050697</td></tr><tr class="lightblue"><th>Site</th><td>Maidstone</td></tr><tr class="yellow"><th>Cast Tutor</th><td>Linda Kyle</td></tr><tr class="lightblue"><th>Other Support</th><td></td></tr><tr class="yellow"><th>Differentiation</th><td></td></tr><tr class="lightblue"><th>Equipment</th><td></td></tr><tr class="yellow"><th>Concessions</th><td></td></tr><tr class="lightblue"><th>Concessions Other</th><td></td></tr><tr class="yellow"><th>Difficulties</th><td>01 - Moderate difficulties<br/>20 - Autism Spectrum Disorder<br/></td></tr><tr class="lightblue"><th>Support Needs</th><td>98 - No Disability<br/>10 - Aspergers Syndrome<br/></td></tr></table></div><h3 class="cast"><a href="javascript:void()">Current Courses</a></h3><div><table><tr class="darkblue"><th colspan="2">Diploma in Vehicle Systems and Body & Paint Maintenance (Entry 3) (QCF)                                                                               </th></tr><tr class="lightblue"><th>Course Code</th><td>54P100/1A</td></tr><tr class="yellow"><th>Year</th><td>2010</td></tr><tr class="lightblue"><th>Completion</th><td>Transferred</td></tr><tr class="yellow"><th>Outcome</th><td>No Achievement</td></tr><tr class="lightblue"><th>LAD</th><td>50085141</td></tr><tr class="darkblue"><th colspan="2">NVQ Certificate in Food preparation and Cooking (QCF)                                                                                                 </th></tr><tr class="lightblue"><th>Course Code</th><td>74P151/1A</td></tr><tr class="yellow"><th>Year</th><td>2010</td></tr><tr class="lightblue"><th>Completion</th><td>Completed</td></tr><tr class="yellow"><th>Outcome</th><td>Achieved (non AS-level aim)</td></tr><tr class="lightblue"><th>LAD</th><td>50097970</td></tr><tr class="darkblue"><th colspan="2">Functional Skills qualification in English                                                                                                            </th></tr><tr class="lightblue"><th>Course Code</th><td>94P362/1A</td></tr><tr class="yellow"><th>Year</th><td>2010</td></tr><tr class="lightblue"><th>Completion</th><td>Completed</td></tr><tr class="yellow"><th>Outcome</th><td>Achieved (non AS-level aim)</td></tr><tr class="lightblue"><th>LAD</th><td>50087009</td></tr><tr class="darkblue"><th colspan="2">Functional Skills qualification in mathematics                                                                                                        </th></tr><tr class="lightblue"><th>Course Code</th><td>94P364/1A</td></tr><tr class="yellow"><th>Year</th><td>2010</td></tr><tr class="lightblue"><th>Completion</th><td>Completed</td></tr><tr class="yellow"><th>Outcome</th><td>Achieved (non AS-level aim)</td></tr><tr class="lightblue"><th>LAD</th><td>50089067</td></tr><tr class="darkblue"><th colspan="2">Award for the Introduction to Vehicle Technology (Entry 3) (QCF)                                                                                      </th></tr><tr class="lightblue"><th>Course Code</th><td>56P378/1A</td></tr><tr class="yellow"><th>Year</th><td>2009</td></tr><tr class="lightblue"><th>Completion</th><td>Completed</td></tr><tr class="yellow"><th>Outcome</th><td>Achieved (non AS-level aim)</td></tr><tr class="lightblue"><th>LAD</th><td>50061422</td></tr><tr class="darkblue"><th colspan="2">Award in Functional Skills English (QCF)                                                                                                              </th></tr><tr class="lightblue"><th>Course Code</th><td>94P373/1A</td></tr><tr class="yellow"><th>Year</th><td>2009</td></tr><tr class="lightblue"><th>Completion</th><td>Completed</td></tr><tr class="yellow"><th>Outcome</th><td>Achieved (non AS-level aim)</td></tr><tr class="lightblue"><th>LAD</th><td>50054983</td></tr><tr class="darkblue"><th colspan="2">Award in Functional Skills Mathematics (QCF)                                                                                                          </th></tr><tr class="lightblue"><th>Course Code</th><td>94P374/1A</td></tr><tr class="yellow"><th>Year</th><td>2009</td></tr><tr class="lightblue"><th>Completion</th><td>Completed</td></tr><tr class="yellow"><th>Outcome</th><td>Achieved (non AS-level aim)</td></tr><tr class="lightblue"><th>LAD</th><td>50054995</td></tr><tr class="darkblue"><th colspan="2">Award in Functional Skills ICT (QCF)                                                                                                                  </th></tr><tr class="lightblue"><th>Course Code</th><td>94P375/1A</td></tr><tr class="yellow"><th>Year</th><td>2009</td></tr><tr class="lightblue"><th>Completion</th><td>Completed</td></tr><tr class="yellow"><th>Outcome</th><td>Achieved (non AS-level aim)</td></tr><tr class="lightblue"><th>LAD</th><td>50055008</td></tr><tr class="darkblue"><th colspan="2">Certificate in Adult Literacy                                                                                                                         </th></tr><tr class="lightblue"><th>Course Code</th><td>56P338/1A</td></tr><tr class="yellow"><th>Year</th><td>2008</td></tr><tr class="lightblue"><th>Completion</th><td>Completed</td></tr><tr class="yellow"><th>Outcome</th><td>Achieved (non AS-level aim)</td></tr><tr class="lightblue"><th>LAD</th><td>10014688</td></tr><tr class="darkblue"><th colspan="2">Certificate in Adult Numeracy                                                                                                                         </th></tr><tr class="lightblue"><th>Course Code</th><td>56P339/1A</td></tr><tr class="yellow"><th>Year</th><td>2008</td></tr><tr class="lightblue"><th>Completion</th><td>Completed</td></tr><tr class="yellow"><th>Outcome</th><td>Achieved (non AS-level aim)</td></tr><tr class="lightblue"><th>LAD</th><td>10014378</td></tr><tr class="darkblue"><th colspan="2">All other education/leisure type courses, Preparation for Life and Work (SSA 14)                                                                      </th></tr><tr class="lightblue"><th>Course Code</th><td>63H420/1B</td></tr><tr class="yellow"><th>Year</th><td>2007</td></tr><tr class="lightblue"><th>Completion</th><td>Completed</td></tr><tr class="yellow"><th>Outcome</th><td>Achieved (non AS-level aim)</td></tr><tr class="lightblue"><th>LAD</th><td>ZOEDL014</td></tr></table></div><h3 class="cast"><a href="javascript:void()">Total Attendance</a></h3><div><table></table><b>Total possible lessons </b>0<br/><b>Total absent lessons </b><br/><b>Total attendance is: </b><font color=gold>0%</font></div><h3 class="cast"><a href="javascript:void()">Other Actions</a></h3><div><form id="medals" action="./templates/custom/badges/selectbadge.php?var1=Nathan Schofield&var2=sto14015&var3=7272&var4=1" method="post"><input type="submit" value="Edit Medals"></form></div><h3 class="cast"><a href="javascript:void()">Profiler results</a></h3><div><table style="text-align: center;"><tr class="darkblue"><th colspan="7">English</th></tr><tr class="lightblue"><th>Baseliner</th><th></th><th>DA</th><th></th><th>R1</th><th></th><th>R2</th></tr><tr class="yellow"><td>L1</td><td><img src="./templates/custom/pix/go-next.png" height"20px" width="20px"></td><td>HL1</td><td><img src="./templates/custom/pix/list-remove.png" height"20px" width="20px"></td><td>n/a</td><td><img src="./templates/custom/pix/list-remove.png" height"20px" width="20px"></td><td>n/a</td></tr><tr class="yellow"><td>16-Jul-2010</td><td></td><td>28-Jan-2011</td><td></td><td>n/a</td><td></td><td>n/a</td></tr><tr class="darkblue"><th colspan="7">Maths</th></tr><tr class="lightblue"><th>Baseliner</th><th></th><th>DA</th><th></th><th>R1</th><th></th><th>R2</th></tr><tr class="yellow"><td>L1</td><td><img src="./templates/custom/pix/go-next.png" height"20px" width="20px"></td><td>HL1</td><td><img src="./templates/custom/pix/go-up.png" height"20px" width="20px"></td><td>ML2</td><td><img src="./templates/custom/pix/list-remove.png" height"20px" width="20px"></td><td>n/a</td></tr><tr class="yellow"><td>16-Jul-2010</td><td></td><td>16-Jul-2010</td><td></td><td>28-Jan-2011</td><td></td><td>n/a</td></tr><tr class="darkblue"><th colspan="7">ICT</th></tr><tr class="lightblue"><th>Baseliner</th><th></th><th>DA</th><th></th><th>R1</th><th></th><th>R2</th></tr><tr class="yellow"><td>n/a</td><td><img src="./templates/custom/pix/list-remove.png" height"20px" width="20px"><td>n/a</td><td><img src="./templates/custom/pix/list-remove.png" height"20px" width="20px"></td><td>n/a</td><td><img src="./templates/custom/pix/list-remove.png" height"20px" width="20px"></td><td>n/a</td></tr><tr class="yellow"><td>n/a</td><td></td><td>n/a</td><td></td><td>n/a</td><td></td><td>n/a</td></tr></table></div>    </div>
+</div>
+ 
+<div id="plp">
+<div class="generalbox" id="ilp-profile-overview">
+    <div id="info">
+ 
+        <table class="infotable" style="width: 100%;">
+            <tr>
+                <td>
+                    <h1>
+<a href="http://moodledev.midkent.ac.uk/user/view.php?courseid=1&id=7272"><div id="fullname"></div></a>                    </h1>
+ 
+                </td>
+            </tr>
+            <tr>
+                <td>
+ 
+                    <table style="width: 100%;">
+                        <tr>
+                            <td  rowspan="3">
+<div id="multiOpenAccordion6"><h3 class="cast"><a href="javascript:void()">Click to see student photo</a></h3><div><img class="student_photo" src=https://studentphotos.midkent.ac.uk/07050697.jpg><br/></div></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+<b><big<big>Student Name is : </b>Nathan Schofield</big></big><br/><b><big<big>Student Number is : </b>07050697</big></big><br/><b><big<big>Date of birth is: </b></big></big><br/><b><big<big>Campus is: </b>Oakwood Park</big></big><br/><b><big<big>Faculty is: </b></big></big><br/>                            </td>
+ 
+                            <td style="vertical-align: top; text-align: center;">
+ 
+                                <!-- set the traffic light based on the students status -->
+<big>Student Status</big><br/><a href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?courseid=1&userid=7272&status=2"><img src="./pix/light01.png"/></a><div id="lightcolour">Green</div><!--          <img src="./pix/help-browser.png"  id="opener"/>-->
+ 
+                            </td>
+                        </tr>
+                    </table>
+ 
+                </td>
+            </tr>
+        </table>
+    </div>
+ 
+ 
+    <!-- end general box -->
+</div>
+ 
+<div id="main_boxes">
+    <div id="multiOpenAccordion">
+ 
+<h3 class="cast"><a href="javascript:void()">Student Info</a></h3><div><div class="generalbox" id="ilp-student_info-overview">
+ 
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/student_info.gif" alt="" />
+<a href="http://moodledev.midkent.ac.uk/blocks/ilp_student_info/view.php?id=7272&courseid=1&amp;view=info">Student Info</a></h2><div class="block_ilp_student_info_text">Guidance note to come<br /></div>
+ 
+<input name="edit_button_1_student_teacher" value="Edit " type="button" title="Edit " onclick="return openpopup('/blocks/ilp_student_info/edit_text.php?userid=7272&courseid=1&per=student&which=teacher', 'popup', 'menubar=0,location=0,scrollbars,resizable,width=750,height=500', 0);" id="id_edit_button_1_student_teacher" />
+ 
+    <div class="block_ilp_student_info_text"><p>Tell us about yourself</p></div>
+ 
+<input name="edit_button_1_student_student" value="Edit " type="button" title="Edit " onclick="return openpopup('/blocks/ilp_student_info/edit_text.php?userid=7272&courseid=1&per=student&which=student', 'popup', 'menubar=0,location=0,scrollbars,resizable,width=750,height=500', 0);" id="id_edit_button_1_student_student" />
+ 
+    </div></div><h3 class="cast"><a href="javascript:void()">Student Targets</a></h3><div><div class="generalbox" id="ilp-target-overview">
+ 
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/pix/target.gif" alt="" />
+<a href="http://moodledev.midkent.ac.uk/mod/ilptarget/target_view.php?userid=7272">Targets</a><div class="ilpadd"><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/plus.gif"><a class="button" href="http://moodledev.midkent.ac.uk/mod/ilptarget/target_view.php?userid=7272&amp;action=updatetarget" onclick="this.blur();"><span>Add new target</span></a></div><div class="clearer">&nbsp;</div></h2><div class="block_ilp_ilptarget"></div></div></div><h3 class="cast"><a href="javascript:void()">Cast SMART Targets</a></h3><div><table><div id="ilp-target-overview"><div class="block_ilp_ilptarget"><div class="ilp_post yui-t4"><div class="bd" role="main"><div class="yui-main"><div class="yui-b"><div class="yui-gd"><div class="yui-u first">SMART Objective:</div><div class="yui-u">BY February 07 Nathan will confirm his use of the new format for his assessment sheets to ensure they are of the expected standard to pass his qualification<p></div></div><div class="yui-gd"><div class="yui-u first">Resources:</div><div class="yui-u">Completed assessment sheets, tutor comments, PLP<p></div></div><div class="yui-gd"><div class="yui-u first">Relevant Evidence:</div><div class="yui-u">PLP and sign off and completed assessment sheets<p></div></div></div></div><div class="yui-b"><ul><li>Objective Number: 2</li><li>Set By: Linda Kyle</li><li>Deadline: 07 February 2011</li></ul></div></div></div></div></div><div id="ilp-target-overview"><div class="block_ilp_ilptarget"><div class="ilp_post yui-t4"><div class="bd" role="main"><div class="yui-main"><div class="yui-b"><div class="yui-gd"><div class="yui-u first">SMART Objective:</div><div class="yui-u">By the review date in January Nathan will be able to confirm that he has completed all assignments and tasks to the expected standard and within the hand in dates.<p></div></div><div class="yui-gd"><div class="yui-u first">Resources:</div><div class="yui-u">Course notes and guides, internet, liaison with course tutors and review meetings with CAST tutor<p></div></div><div class="yui-gd"><div class="yui-u first">Relevant Evidence:</div><div class="yui-u">Confirmation from course tutors and PLP
+ 
+Nathan confirmed that he is up to date with his work and tasks<p></div></div></div></div><div class="yui-b"><ul><li>Objective Number: 1</li><li>Set By: Linda Kyle</li><li>Deadline: 29 January 2011</li></ul></div></div></div></div></div></table></div><h3 class="cast"><a href="javascript:void()">Student's Progress</a></h3><div><div class="generalbox" id="ilp-concerns-overview">
+ 
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/report1.gif" alt="" /><a href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=0">Progress Reviews</a><div class="ilpadd"><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/plus.gif"> <a class="button" href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=0&amp;action=updateconcern&amp;status=0" onclick="this.blur();"><span>Add Progress Review</span></a></div><div class="clearer">&nbsp;</div></h2><div class="block_ilp_ilpconcern"></div></div><div class="generalbox" id="ilp-concerns-overview">
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/report2.gif" alt="" /><a href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=1">Concerns</a><div class="ilpadd"><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/plus.gif"> <a class="button" href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=1&amp;action=updateconcern&amp;status=1" onclick="this.blur();"><span>Add Concern</span></a></div><div class="clearer">&nbsp;</div></h2><div class="block_ilp_ilpconcern"></div></div><div class="generalbox" id="ilp-concerns-overview">
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/report3.gif" alt="" /><a href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=2">Reason for Status Change</a><div class="ilpadd"><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/plus.gif"> <a class="button" href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=2&amp;action=updateconcern&amp;status=2" onclick="this.blur();"><span>Add Reasons</span></a></div><div class="clearer">&nbsp;</div></h2><div class="block_ilp_ilpconcern"></div></div><div class="generalbox" id="ilp-concerns-overview">
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/report4.gif" alt="" /><a href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=3">Contributions</a><div class="ilpadd"><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/plus.gif"> <a class="button" href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=3&amp;action=updateconcern&amp;status=3" onclick="this.blur();"><span>Add Contribution</span></a></div><div class="clearer">&nbsp;</div></h2><div class="block_ilp_ilpconcern"></div></div></div><h3 class="cast"><a href="javascript:void()">Cast Reviews</a></h3><div><h3 class="cast"><a href="javascript:void()">Cast Reviews</a></h3><div><table><div id="ilp-target-overview"><div class="block_ilp_ilptarget"><div class="ilp_post yui-t4"><div class="bd" role="main"><div class="yui-main"><div class="yui-b"><div class="yui-gd"><div class="yui-u first">Support to Date:</div><div class="yui-u">Nathan is a CAST review learner 
+No in class facilitator support
+Exam concession of up to 25% extra time <p></div></div><br/><div class="yui-gd"><div class="yui-u first">Review of Support:</div><div class="yui-u">DNA - review completed in Nathan's absence. No facilitator reports to refer to. PLP only showed his attendance which was excellent at 96% <p></div></div><br/><div class="yui-gd"><div class="yui-u first">Details of changes:</div><div class="yui-u">Assumed no changes required at this time <p></div></div><br/><div class="yui-gd"><div class="yui-u first">Perfomance Against SMART Targets:</div><div class="yui-u">
+Assumed still working towards his set target as no information available to the contrary<p></div></div><br/><div class="yui-gd"><div class="yui-u first">New SMART Targets Set:</div><div class="yui-u">
+No new targets set as assumed Nathan is working at the expected standard to gain his qualification.
+Left message on mobile for Nathan to contact me with his progression plans for September<p></div></div></div></div><div class="yui-b"><ul><li>Tutor: Linda Kyle</li><li>Date: 28 April 2011</li></ul></div></div></div></div></div><div id="ilp-target-overview"><div class="block_ilp_ilptarget"><div class="ilp_post yui-t4"><div class="bd" role="main"><div class="yui-main"><div class="yui-b"><div class="yui-gd"><div class="yui-u first">Support to Date:</div><div class="yui-u">Nathan is a CAST review learner 
+No in class facilitator support
+Exam concession of up to 25% extra time <p></div></div><br/><div class="yui-gd"><div class="yui-u first">Review of Support:</div><div class="yui-u">DNA - review completed in Nathan's absence. No facilitator reports to refer to. PLP only showed his attendance which was excellent at 98%<p></div></div><br/><div class="yui-gd"><div class="yui-u first">Details of changes:</div><div class="yui-u">Assumed no changes required at this time<p></div></div><br/><div class="yui-gd"><div class="yui-u first">Perfomance Against SMART Targets:</div><div class="yui-u">Working towards his set target<p></div></div><br/><div class="yui-gd"><div class="yui-u first">New SMART Targets Set:</div><div class="yui-u"><p></div></div></div></div><div class="yui-b"><ul><li>Tutor: Linda Kyle</li><li>Date: 07 February 2011</li></ul></div></div></div></div></div><div id="ilp-target-overview"><div class="block_ilp_ilptarget"><div class="ilp_post yui-t4"><div class="bd" role="main"><div class="yui-main"><div class="yui-b"><div class="yui-gd"><div class="yui-u first">Support to Date:</div><div class="yui-u">Nathan is a CAST tutor review student
+He does not have an in class facilitator
+His exam concession is up to 25% extra time<p></div></div><br/><div class="yui-gd"><div class="yui-u first">Review of Support:</div><div class="yui-u">Nathan is enjoying his course and feels he is progressing well. He feels he is coping well with the written work and feels he is keeping up with all tasks. The new look assessment form format may benefit him writing up his assessments tasks. This will be reviewed again on the 07 February.<p></div></div><br/><div class="yui-gd"><div class="yui-u first">Details of changes:</div><div class="yui-u">Nathan does not feel that his support needs to be changed at this point <p></div></div><br/><div class="yui-gd"><div class="yui-u first">Perfomance Against SMART Targets:</div><div class="yui-u">Nathan confirmed that he is up to date with assessment and they are to the expected standard to pass the qualification<p></div></div><br/><div class="yui-gd"><div class="yui-u first">New SMART Targets Set:</div><div class="yui-u">By 07 February Nathan will be able to confirm his completion of his assessment sheets to the expected standard<p></div></div></div></div><div class="yui-b"><ul><li>Tutor: Linda Kyle</li><li>Date: 20 January 2011</li></ul></div></div></div></div></div><div id="ilp-target-overview"><div class="block_ilp_ilptarget"><div class="ilp_post yui-t4"><div class="bd" role="main"><div class="yui-main"><div class="yui-b"><div class="yui-gd"><div class="yui-u first">Support to Date:</div><div class="yui-u">Nathan is a CAST tutor review student
+He does not have in class facilitation
+He has up to 25% extra time as exam concession<p></div></div><br/><div class="yui-gd"><div class="yui-u first">Review of Support:</div><div class="yui-u">Nathan is satisfied with the level of support he is receiving now and does not want any changes as yet<p></div></div><br/><div class="yui-gd"><div class="yui-u first">Details of changes:</div><div class="yui-u">none<p></div></div><br/><div class="yui-gd"><div class="yui-u first">Perfomance Against SMART Targets:</div><div class="yui-u">Nathan is working well in class and meeting deadlines for handing in work tasks. He is acheiving work to the required standards<p></div></div><br/><div class="yui-gd"><div class="yui-u first">New SMART Targets Set:</div><div class="yui-u">Nathan will continue to work to meet deadline and to the required standards to acheive his qualification at year end<p></div></div></div></div><div class="yui-b"><ul><li>Tutor: Linda Kyle</li><li>Date: 19 October 2010</li></ul></div></div></div></div></div></div></div><h3 class="cast"><a href="javascript:void()">Subject Report</a></h3><div><div class="generalbox" id="ilp-subject_report-overview">
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/subject_report.gif" alt="" /><a href="http://moodledev.midkent.ac.uk/blocks/ilp_student_info/view.php?id=7272&courseid=1&amp;view=subject">Subject Reports</a></h2></div></div>
+    </div>
+ 
+</div>
+</div>
+ 
+<!-- moved to the bottom due to speed hit of calling the user accounts block -->
+ 
+<div id="external_databases"><br/><br/><br/><div id="printbutton"><table style="text-align: center;"><td><a href="https://s-web1.midkent.ac.uk/portal"><img style="border: 0px;" src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/colour-people.png"   title="Update My Details"/><br/>Update My <br>Student Details</a></td><td><input type="image" src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/document-print.png"  onClick="window.print()"   value="Print This Page" alt="Print this page"/><br/>Print this page</a></td></table></div></div><!-- The folowing uses a javascript to check that the page has loaded if it has finished loading then it loads the ad details section
+this is because the ad section takes long time to load and this way the page is useable whilst the ad section loads in the background -->
+ 
+</td>
+</tr>
+</table>
+ 
+</div>
+<div id="tabs-2">
+ 
+    <table style="text-align: left;"><tr style="background-color: rgb(88, 153, 202);"><th>Centre</th><th>Awarding Body</th><th>Subject Code</th><th>Subject Title</th><th>Paper Code</th><th>Paper Title</th><th>Start Time</th><th>End Time</th><th>Duration</th><th>Room</th><th>Candidate Number</th></tr><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>101         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>103         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>104         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>109         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>110         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>115         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>116         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>117         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>118         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>119         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>120         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>121         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>122         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>123         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>124         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>125         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>126         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>127         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>141         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>CG              </td><td>713103      </td><td>Level 1 Certificate In Food Prep    </td><td>203         </td><td> </td><td></td><td></td><td></td><td></td><td>HRY9464   </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>EDEXDIPENT      </td><td>E101        </td><td>Functional English L1 U1            </td><td>E101 01     </td><td>Speaking,listening & Comm           </td><td></td><td></td><td></td><td></td><td>1043      </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>EDEXDIPENT      </td><td>E102        </td><td>Functional English L1 U2            </td><td>E102 01     </td><td>Reading                             </td><td>Jan 14 2011  1:30PM</td><td>Jan 14 2011  3:15PM</td><td>105</td><td>PM006     </td><td>1043      </td><tr style="background-color: rgb(252, 254, 222);"><td>Oakwood Park</td><td>EDEXDIPENT      </td><td>E103        </td><td>Functional English L1 U3            </td><td>E103 01     </td><td>Writing                             </td><td>Jan 14 2011  1:30PM</td><td>Jan 14 2011  3:15PM</td><td>105</td><td>PM006     </td><td>1043      </td><tr style="background-color: rgb(220, 241, 249);"><td>Oakwood Park</td><td>EDEXDIPENT      </td><td>FSM01       </td><td>Functional Maths.level 1            </td><td>FSM0101     </td><td>Written Paper                       </td><td>Mar 25 2011 11:15AM</td><td>Mar 25 2011 12:45PM</td><td>90</td><td>PBHUT     </td><td>1043      </td></table>
+</div>
+ 
+ 
+<div id="tabs-3">
+ 
+    <a href="./templates/custom/STUDENTS_RESULT_LETTER.pdf">Click here for Important Exam Results Information</a><h3>Cashed Grades</h3><table style="text-align: left;"><tr style="background-color: rgb(88, 153, 202);"><th>Subject Title</th><th>Grade</th><th>Numeric Grade</th></tr><tr style="background-color: rgb(252, 254, 222);"><td>LEVEL 1 CERTIFICATE IN FOOD PREP    </td><td>PA    </td><td>0</td></tr><tr style="background-color: rgb(220, 241, 249);"><td>FUNCTIONAL ENGLISH LEVEL1           </td><td>P     </td><td>18</td></tr><tr style="background-color: rgb(252, 254, 222);"><td>FUNCTIONAL MATHS.LEVEL 1            </td><td>P     </td><td>0</td></tr></table><table style="text-align: left;"><tr style="background-color: rgb(88, 153, 202);"><th>Subject Title</th><th>Paper Title</th><th>Paper Code</th><th>Series</th><th  style="text-align: center;">Grade</th><th  style="text-align: center;">Numeric</th></tr><tr style="background-color: rgb(252, 254, 222);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">101         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(220, 241, 249);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">103         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(252, 254, 222);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">104         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(220, 241, 249);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">109         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(252, 254, 222);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">110         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(220, 241, 249);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">115         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(252, 254, 222);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">141         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(220, 241, 249);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">203         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(252, 254, 222);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">122         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(220, 241, 249);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">123         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(252, 254, 222);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">124         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(220, 241, 249);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">125         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(252, 254, 222);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">126         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(220, 241, 249);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">127         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(252, 254, 222);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">116         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(220, 241, 249);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">117         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(252, 254, 222);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">118         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(220, 241, 249);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">119         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(252, 254, 222);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">120         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(220, 241, 249);"><td>Level 1 Certificate In Food Prep    </td><td> </td><td style="text-align: center;">121         </td><td style="text-align: center;">0010  </td><td style="text-align: center;">PA</td><td style="text-align: center;">0</td><tr style="background-color: rgb(252, 254, 222);"><td>Functional English L1 U1            </td><td>Speaking,listening & Comm           </td><td style="text-align: center;">E101 01     </td><td style="text-align: center;">2A11  </td><td style="text-align: center;">P</td><td style="text-align: center;">6</td><tr style="background-color: rgb(220, 241, 249);"><td>Functional English L1 U2            </td><td>Reading                             </td><td style="text-align: center;">E102 01     </td><td style="text-align: center;">1A11  </td><td style="text-align: center;">P</td><td style="text-align: center;">6</td><tr style="background-color: rgb(252, 254, 222);"><td>Functional English L1 U3            </td><td>Writing                             </td><td style="text-align: center;">E103 01     </td><td style="text-align: center;">1A11  </td><td style="text-align: center;">P</td><td style="text-align: center;">6</td><tr style="background-color: rgb(220, 241, 249);"><td>Functional Maths.level 1            </td><td>Written Paper                       </td><td style="text-align: center;">FSM0101     </td><td style="text-align: center;">3A11  </td><td style="text-align: center;">P</td><td style="text-align: center;">0</td></table>
+</div>
+ 
+ 
+<!--Archive tab-->
+    <div id="tabs-4">
+ 
+        Below are the Progress reviews, Concerns, Reasons for status changes and Contribuitons for previous years. <p/>Please note that all previous targets can be accessed from the targets screen (click on the targets heading).
+        <div class="generalbox" id="ilp-concerns-overview">
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/report1.gif" alt="" /><a href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=0">Progress Reviews</a><div class="ilpadd"></div><div class="clearer">&nbsp;</div></h2><div class="block_ilp_ilpconcern"></div></div><div class="generalbox" id="ilp-concerns-overview">
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/report2.gif" alt="" /><a href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=1">Concerns</a><div class="ilpadd"></div><div class="clearer">&nbsp;</div></h2><div class="block_ilp_ilpconcern"></div></div><div class="generalbox" id="ilp-concerns-overview">
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/report3.gif" alt="" /><a href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=2">Reason for Status Change</a><div class="ilpadd"></div><div class="clearer">&nbsp;</div></h2><div class="block_ilp_ilpconcern"></div></div><div class="generalbox" id="ilp-concerns-overview">
+<h2><img src="http://moodledev.midkent.ac.uk/blocks/ilp/templates/custom/pix/report4.gif" alt="" /><a href="http://moodledev.midkent.ac.uk/mod/ilpconcern/concerns_view.php?userid=7272&amp;status=3">Contributions</a><div class="ilpadd"></div><div class="clearer">&nbsp;</div></h2><div class="block_ilp_ilpconcern"></div></div>        </div>
+ 
+<div id="tabs-5">
+You can click below to change you guardian password and to see the status of your account<iframe name="guardian" width="100%" height="415" frameborder="0" src="https://guardianaccess.midkent.ac.uk/default.asp?id=sto14015&campus=Oakwood Park"></iframe></div>
+ 
+<div id="tabs-6">
+ 
+<h2> Induction checklist</h2>
+ 
+   1    Qualifications upon entry and setting of minimum target grade</br>
+ 
+   2    Information about the course explaining the content, expectations and
+    demands of the course.</br>
+ 
+   3    An introduction to the different teaching and learning styles that will
+    be used to deliver the course e.g. home study, independent learning in LRC, research via the internet, etc.</br>
+ 
+   4    Health and Safety arrangements.</br>
+ 
+   5    Student Charter and rights and responsibilities</br>
+ 
+    6    Progression and career opportunities</br>
+ 
+    7    Careers, Counselling and Welfare Advice</br>
+ 
+    8    Assessment timetable</br>
+ 
+    9    The methods of assessment to be used</br>
+ 
+   10    The setting of a short piece of written work or assignment  - to be
+    handed in within four weeks of starting the course</br>
+ 
+    11    Appeals procedures</br>
+ 
+    12    Information on the tutorial curriculum and assignment of their course
+    tutor</br>
+ 
+    13    Appointment of course representative</br>
+ 
+   14    Details of the enrichment programme and how to take part in it</br>
+ 
+    15    Details of financial support, and how to apply for it</br>
+ 
+   16    Tour of LRC, discussion of remote learning materials which are
+    available and visit to
+    the Learning Zones.</br>
+ 
+    17    Tour of the college centre where they study</br>
+ 
+    18    Information about the setting and marking of homework</br>
+ 
+    19    Discussion on the importance of punctuality and the College’s
+    expectations-
+    lateness is not acceptable, explanation of the late slips</br>
+ 
+    20    Complaints procedure</br>
+ 
+    21    The importance of  appropriate additional learning support if learners
+    have a disability, learning difficulty or medical condition</br>
+ 
+    22    The importance of arrangements for Functional Skills.</br>
+ 
+    23    Setting student placement opportunities/work experience</br>
+ 
+    24         Dates for Open Days, Parents/Careers Evenings</br>
+ 
+    25         Disciplinary Procedure</br>
+ 
+    26         Diversity and Equality of opportunity and the Race Relations
+    Act</br>
+ 
+    27        Logging into Moodle and commencement of the PLP</br>
+ 
+    28        Receipt of a Course Handbook</br>
+ 
+    29        Smoking area</br>
+ 
+    30        Awareness of the Student Code of Conduct</br>
+ 
+    31        Campus rules and regulations – signed copy to tutor</br>
+ 
+</div>
+ 
+<div id="tabs-7">
+ 
+<table>
+    <tr>
+        <th class="bronze" colspan="4">Bronze</th>
+    </tr>
+    <tr class="bronze">
+        <th>1. Professional standards of behaviour and reliability</th>
+        <th>2. Professional Communication</th>
+        <th>3. Draft CV</th>
+        <th></th>
+    </tr>
+ 
+    <tr class="bronze">
+        <td>
+ 
+ 
+            Assessed by faculty
+            • Dress code and uniform
+            • Safety equipment
+            • Prepared for classes
+            • Standards/Customer Service
+            • Lateness
+            • Reliability
+ 
+        </td>
+        <td>
+ 
+            Assessed by faculty
+            • Making a contribution in class
+            • Polite when responding to class mates, tutors, other staff and visitors
+            • Demonstrates ability to communicate on a range of issues
+ 
+        </td>
+        <td>
+ 
+            Student can access Personal Tutor Moodle to use resources to complete a draft CV to discuss at review 1 with
+            PT and tutor.
+            • Draft CV completed independently
+ 
+        </td>
+        <td>
+            Bronze achieved
+        </td>
+    </tr>
+ 
+    <form name="passport" method="POST" action="/blocks/ilp/templates/custom/process_passport.php">
+        <tr class="bronze2" style="text-align:center;">
+            <td>
+                <img src="./templates/custom/pix/delete-icon.png"><br/><input type="checkbox" name=b1>
+            </td>
+            <td>
+                <img src="./templates/custom/pix/delete-icon.png"><br/><input type="checkbox" name=b2>            </td>
+            <td>
+ 
+                <img src="./templates/custom/pix/delete-icon.png"><br/><input type="checkbox" name=b3>
+            </td>
+            <td>
+ 
+                <img src="./templates/custom/pix/delete-icon.png"><input type="hidden" name=bcomp value="0""><input type="hidden" name=bcompcurrent value="off"">
+            </td>
+        </tr>
+        <tr>
+            <th class="silver" colspan="4">Silver</th>
+        </tr>
+        <tr class="silver">
+            <th>4. Searching & applying for a job</th>
+            <th>5. The Work ready employer interview</th>
+            <th>6. Create a CV</th>
+            <th></th>
+        </tr>
+        <tr class="silver">
+            <td>
+                Students attend passport tutorials in a number of options weeks where they can gain skills in searching
+                and
+                applying for jobs. This could lead to a WorkSkills credit at E3-L2. There are a number of resources on v
+                share for self-study as well as regular opportunities to attend sessions in a options week.
+ 
+            </td>
+            <td>
+                During options weeks students can be guided to sessions to practice interview skills. The JobShop will
+                work
+                with faculties to plan Employer interviews that are relevant and fit with timetabling.
+ 
+            </td>
+            <td>
+ 
+                2 step process
+ 
+                The draft CV is reviewed and worked on by student with personal tutor, IAG, through workshops and
+                tutorial.
+                Once complete the student can be released to the JobShop where the CV can be validated and work with the
+                JobShop team can begin. There will be a flag through PLP to show this stage is complete.
+ 
+            </td>
+            <td>
+                Silver by Easter– must complete to be released to JobShop
+            </td>
+        </tr>
+        <tr class="silver2" style="text-align:center;">
+            <td>
+ 
+                <img src="./templates/custom/pix/delete-icon.png"><br/><input type="checkbox" name=s1>
+            </td>
+            <td>
+                <img src="./templates/custom/pix/delete-icon.png"><br/><input type="checkbox" name=s2>            </td>
+            <td>
+ 
+                <img src="./templates/custom/pix/delete-icon.png"><br/><input type="checkbox" name=s3>
+            </td>
+            <td>
+                <img src="./templates/custom/pix/delete-icon.png"><input type="hidden" name=scomp value="0""><input type="hidden" name=scompcurrent value="off"">            </td>
+        </tr>
+        <tr class="gold">
+            <th colspan="4">Gold</th>
+        </tr>
+        <tr class="gold">
+            <th>7. *Optional*</th>
+            <th>8. *Optional*</th>
+            <th>9. *Optional *</th>
+            <th></th>
+        </tr>
+        <tr class="gold">
+            <td>
+ 
+                These weeks will allow students to look at volunteering, charity work, finance, budgeting, HE, health
+                etc.
+ 
+            </td>
+            <td>
+ 
+                These weeks will be after the two weeks of tutorial at the beginning of each half term and after
+                WorkSkills–
+                for example 30th Jan, 6th Feb, 5th March, 12th March, 19th March, 30th April, 7th May, 14th may and so
+                on
+ 
+            </td>
+            <td>
+                The offer may be delivered by PTs, IAG, outside specialists, banks, HEI or from faculty plans such as
+                -Food hygiene
+                -Health & Safety , Door supervisor
+ 
+            </td>
+            <td>
+                Gold
+ 
+                Gold standard denotes a student who has gone onto a achieve higher than required
+ 
+            </td>
+        </tr>
+        <tr class="gold2" style="text-align:center;">
+            <td>
+                <img src="./templates/custom/pix/delete-icon.png"><br/><input type="checkbox" name=g1>
+            </td>
+            <td>
+                <img src="./templates/custom/pix/delete-icon.png"><br/><input type="checkbox" name=g2>            </td>
+            <td>
+ 
+                <img src="./templates/custom/pix/delete-icon.png"><br/><input type="checkbox" name=g3>
+            </td>
+            <td>
+                <img src="./templates/custom/pix/delete-icon.png"><input type="hidden" name=gcomp value="0""><input type="hidden" name=gcompcurrent value="off"">            </td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align: right;">
+                                <input type='hidden' name='learner_ref' value='07050697'>
+                <input type='hidden' name='courseid' value='1'>
+                <input type='hidden' name='learnerid' value='7272'>
+ 
+                                <input type='hidden' name='studentEmail' value='nathan.schofield@student.midkent.ac.uk'>
+                <input type="submit" value="submit changes">
+                    </form>
+    </td>
+    </tr>
+</table></div>
+ 
+</div>
+ 
+<!--<div id="tabs-5">-->
+<!---->
+<!--</div>-->
+ 
+</div>
+</div>
+ 
+ 
+ 
+<!--    <!-- Help dialog -->-->
+<!--<div class="demo">-->
+<!---->
+<!--    <div id="dialog" title="Traffic Light Help">-->
+<!---->
+<!--        <object width="425" height="350" type="application/x-shockwave-flash" data="https://vshare.midkent.ac.uk/player/player.swf"><param name="movie" value="https://vshare.midkent.ac.uk/player/player.swf"><param name="flashvars" value="&file=https://vshare.midkent.ac.uk/xml_playlist.php?id=136&height=350&image=https://vshare.midkent.ac.uk/thumb/4ca4238a0b/136.jpg&width=425&location=https://vshare.midkent.ac.uk/player/player.swf&logo=https://vshare.midkent.ac.uk/templates/images/watermark.gif&link=http://s-moodle.midkent.ac.uk&linktarget=_blank"/></object>-->
+<!---->
+<!--        </div>-->
+<!--</div>-->
+ 
+ 
+        <div id="dialog"></div>
+ 
+</div> <!-- end div containerContent -->
+</div> <!-- end div  bluepage -->
+<!-- START OF FOOTER -->
+    <div id="footer">
+        <div align="center">
+        <div class="logininfo">You are logged in as <a  href="http://moodledev.midkent.ac.uk/user/view.php?id=14818&amp;course=1">Dan Attwood</a>  (<a  href="http://moodledev.midkent.ac.uk/login/logout.php?sesskey=WwhLNfuk5j">Logout</a>)</div>        Wednesday October 26, 2011        <div class="homelink"><a  href="http://moodledev.midkent.ac.uk/course/view.php?id=1">Moodle</a></div>                <br/>
+        </div>
+    </div>
+</div> <!--end of page div -->
+ 
+<!-- Piwik -->
+<script type="text/javascript"> 
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.midkent.ac.uk/" : "http://stats.midkent.ac.uk/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript"> 
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.midkent.ac.uk/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tag -->
+ 
+</body>
+</html>
+ 
+

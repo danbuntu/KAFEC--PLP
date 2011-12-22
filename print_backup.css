@@ -1,0 +1,173 @@
+/* 
+    Document   : print
+    Created on : 30-Jun-2010, 15:03:46
+    Author     : dattwood
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#ilp-profile-overview .h1 {
+    color: black;
+}
+
+/* all the accordians open */
+.accordion dd.closed {
+	display: block;
+}
+.accordion dd.open {
+	display: block;
+}
+
+
+#header {
+    display: none;
+}
+
+ .menubar {
+    display: none;
+}
+
+ .breadcrumb {
+    display: none;
+}
+
+/* knocks out the blue borders that otherwise appear */
+#page {
+    background-color: white;
+        border-color: white;
+}
+
+#bluepage {
+    background-color: white;
+        border-color: white;
+}
+
+#content {
+    background-color: white;
+    border-color: white;
+}
+
+#footer {
+    display: none;
+}
+
+.ilpadd {
+    display: none;
+}
+
+/* fixes an issue with the header being clipped */
+#ilp-profile-overview h1 {
+    padding-bottom: 10px;
+}
+
+.accordion {
+
+}
+
+
+
+#ilp-target-overview .commands {
+    display: none;
+}
+
+#ilp-concerns-overview .commands {
+    display: none;
+}
+
+.accordion {
+    border: none;
+}
+
+
+table.test {
+    width: 30px;
+}
+
+#flightplan {
+    
+       float: left;
+
+
+    width: 100%;
+margin-left: -70px;
+text-align: center;
+clear: both;
+}
+
+
+
+#info {
+width: 100%;
+    top: 60px;
+}
+
+table.infotable {
+    background-color: red;
+    width: 100%;
+}
+
+#hidden {
+     display: inline;
+     height: 10px;
+}
+
+/* hide the borders */
+.accordion .closed {
+    border: 0px;
+}
+
+#fullname {
+    display: none;
+    background-color: red;
+    height:10px;
+}
+
+#main_boxes {
+    margin-left: -30px;
+  text-align: left;
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+.accordion {
+    background-color: red;
+}
+
+
+.id_edit_button_1_student_student {
+    display: none;
+
+}
+
+.edit_button_695_student_teacher {
+    display: none;
+}
+
+#infobutton {
+    display: none;
+}
+
+#printbutton {
+    display: none;
+}
+
+#external_databases {
+ display: none;
+    text-align: left;
+      float: left;
+    clear: both;
+}
+
+#info {
+    background-color: red;
+}

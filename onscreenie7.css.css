@@ -1,0 +1,43 @@
+/* below is used to reformat the progress reviews etc to display nicer */
+
+.yui-t4 .bd {
+    width:100%;
+    float:left;
+    clear: both;
+    /* background-color: fuchsia; */
+}
+
+.yui-gd {
+    /*  background-color: orange; */
+    width: auto;
+    float: left;
+    clear: both;
+    width:100%;
+}
+
+.yui-gd div.first {
+    width:100%;
+    font-weight: bold;
+    /* background-color: red; */
+    float: left;
+    clear: both;
+}
+
+.bd .yui-main {
+    float:left;
+    clear: right;
+    /* background-color: green; */
+    width:100%;
+}
+
+.bd .yui-b {
+    /* background-color: blue; */
+    float:left;
+    clear: left;
+    right: 0px;
+}
+
+.yui-u {
+    /* background-color: lime; */
+    width:100%;
+}

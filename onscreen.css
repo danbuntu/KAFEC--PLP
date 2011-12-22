@@ -1,0 +1,354 @@
+/*
+    Document   : onscreen
+    Created on : 27-Oct-2010, 14:03:15
+    Author     : dattwood
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+#spacer {
+    margin-top: 14px;
+}
+
+root { 
+    display: block;
+}
+
+/* hide the light color on screen */
+#lightcolour {
+    display: none;
+}
+
+/* below is used to reformat the progress reviews etc to display nicer */
+.yui-b {
+    /*  background-color: red; */
+    clear: both;
+    width: 100%;
+}
+
+.yui-gd {
+    /*    background-color: teal;*/
+    float: left;
+}
+
+/* make the main content fill the width */
+.yui-t4 .yui-main .yui-b{margin-right:2em;*margin-right:2em;}
+
+.yui-gd div.first {
+    width : 100%;
+    font-weight: bold;
+}
+
+
+.yui-gd .yui-u{
+    width: 100%;
+    border-right:none;
+    border-left:none;
+    padding-left:0px;
+}
+
+.yui-u {
+    width: 100%;
+}
+
+.yui-main {
+    /* background-color: teal; */
+    position: relative;
+}
+
+
+#activedir {
+    text-align: center;
+    width: 100%;
+}
+
+
+/* Fix for IE 8 to make tables headers align right */
+th {
+    text-align: inherit;
+}
+
+
+/* table cell classes */
+
+.darkblue {
+background-color: rgb(88, 153, 202);
+}
+
+.lightblue {
+    background-color: rgb(220, 241, 249);
+}
+
+.yellow {
+    background-color: rgb(252, 254, 222);
+}
+
+.assessment {
+   
+    padding:  0px 3px 0px 3px;
+    margin-bottom: 3px;
+}
+
+
+ /*hide the qtip pop ups*/
+.assessmentinfo {
+    display: none;
+}
+
+
+#submitFlightplan {
+    text-align: right;
+    /*hide the text*/
+    font-size: 0;
+    line-height: 0;
+    padding-left: 11px;
+}
+
+#submitFlightplan {
+
+    border: none;
+    background: url('pix/Save-icon.png') no-repeat top left;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    /*hide the text*/
+     font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#submitFlightplan.mhover {
+    border: none;
+    font-weight: normal;
+    background: url('pix/Save-icon-down.png') no-repeat top left;
+    padding: 2px 8px;
+    /*hide the text*/
+     font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#submitMTG {
+
+    border: none;
+    background: url('pix/Save-icon.png') no-repeat top left;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    /*hide the text*/
+  font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#submitMTG.mhover {
+    border: none;
+    font-weight: normal;
+    background: url('pix/Save-icon-down.png') no-repeat top left;
+    padding: 2px 8px;
+    /*hide the text*/
+   font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+
+#submitTutorMTG {
+
+    border: none;
+    background: url('pix/Save-icon.png') no-repeat top left;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    /*hide the text*/
+  font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#submitTutorMTG.mhover {
+    border: none;
+    font-weight: normal;
+    background: url('pix/Save-icon-down.png') no-repeat top left;
+    padding: 2px 8px;
+    /*hide the text*/
+   font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#removeParental {
+
+    border: none;
+    background: url('pix/Remove-icon.png') no-repeat top left;
+    background-size:32px 32px;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    /*hide the text*/
+     font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#removeParental.mhover {
+    border: none;
+    font-weight: normal;
+    background: url('pix/Remove-icon-down.png') no-repeat top left;
+    background-size:32px 32px;
+    padding: 2px 8px;
+    /*hide the text*/
+    font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#removeInduction {
+
+    border: none;
+    background: url('pix/tick-icon.png') no-repeat top left;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    /*hide the text*/
+     font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#removeInduction.mhover {
+    border: none;
+    font-weight: normal;
+    background: url('pix/tick-icon-down.png') no-repeat top left;
+    padding: 2px 8px;
+    /*hide the text*/
+    font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+
+#editFlightplan {
+    text-align: right;
+    /*hide the text*/
+  font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#editFlightplan {
+
+    border: none;
+    background: url('pix/edit-icon1.png') no-repeat top left;
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    /*hide the text*/
+    font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#editFlightplan.mhover {
+    border: none;
+    font-weight: normal;
+    background: url('pix/edit-icon2.png') no-repeat top left;
+    padding: 2px 8px;
+    /*hide the text*/
+      font-size: 0;
+    line-height: 0;
+    padding-left: 1000px;
+}
+
+#parental {
+    font-weight: bold;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+.assessmentboxtext {
+    font-weight: bold;
+text-align: center;
+    font-size: 22px;
+    padding-top: 12px;
+    padding-left: 1px;
+}
+
+.assessmentboxgreen {
+    background: url('pix/green.png');
+    height: 50px;
+    width: 50px;
+}
+
+.assessmentboxred {
+    background: url('pix/red.png');
+    height: 50px;
+    width: 50px;
+}
+
+.assessmentboxblue {
+    background: url('pix/blue.png');
+    height: 50px;
+    width: 50px;
+}
+
+/*A fix the sort the layout of the assesment tracker box*/
+.hiddentext {
+    margin-top:5px;
+    color: #F7F8F1;
+    hieght: 35px;
+
+}
+
+.bronze {
+    background-color: #DF8F3F;
+}
+
+.bronze2 {
+    background-color: #ffaf60;
+}
+
+.silver {
+    background-color: silver;
+}
+
+.silver2 {
+    background-color: #eaeaea;
+}
+
+.gold {
+    background-color: #daa520;
+}
+
+.gold2 {
+    background-color: #e5c475;
+}
+
+#small_badges {
+    text-align: center;
+    padding-right:5px;
+    margin-bottom: 5px;
+
+}
+
+#passportBadges2 {
+    text-align: center;
+    background-color: red;
+}
+
+ul.passport {
+    list-style-type: circle;
+    color: black;
+    font: 100%/1.6em Futura, Arial, Verdana, sans-serif;
+}
+
+.progression {
+    text-align: center;
+}

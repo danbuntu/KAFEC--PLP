@@ -1,0 +1,38 @@
+/* Grid System CSS ============================================================= */
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+/* Reset the new HTML5 elements */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video { display: block; }
+mark, rp, rt, ruby, summary, time { display: inline }
+
+/*
+960px Grid Framework system.
+Typography 
+*/
+
+body {background:#222;font-size:100%;font-family: Helvetica, Arial, sans-serif;color:#666}
+p {font-size: 14px;font-weight: 300;line-height:20px;margin-bottom:20px;color:#666}
+
+h1, h2, h3, h4  {color:#2A2A2A;margin-bottom:15px;letter-spacing:-1px;text-transform:capitalize}
+h1 {font-size:26px;}
+h2 {font-size:24px;}
+a{font-weight:bold;color:#2484a8}
+article header h1{font-size:18px}
+
+#container{width:940px;margin:40px auto;background:#FFF;padding:20px;overflow:auto;min-height:1000px}
+
+/* Modal Styling ============================================================= */
+
+#mask{position:absolute;top:0;left:0;z-index:2;background:#111;opacity:0.8;display:none}
+.window{background:#FFF;padding:20px;position:absolute;z-index:7;border:5px solid #000;opacity:0.7;
+-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
+#window1{display:none;}
+#window2{display:none}
+.window .close {position:absolute;top:-12px;right:-12px;text-decoration:none}
+
+

@@ -1,0 +1,41 @@
+ 
+<!-- dependencies hosted on yahooapis.com --> 
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/yahoo-dom-event/yahoo-dom-event.js"></script> 
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/element/element-beta-min.js"></script> 
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/datasource/datasource-beta-min.js"></script> 
+<script type="text/javascript" src="http://yui.yahooapis.com/2.4.1/build/json/json-beta-min.js"></script> 
+<script type="text/javascript" src="http://s-moodledev/lib/yui/charts/charts-experimental-min.js"></script> 
+<script type="text/javascript">YAHOO.widget.Chart.SWFURL = "http://yui.yahooapis.com/2.4.0/build/charts/assets/charts.swf";</script> 
+ 
+<body> <!-- required! --> 
+ 
+<!-- chart container --> 
+<div id="chart" style="width: 200px; height: 200px;"></div> 
+ 
+<script type="text/javascript"> 
+ 
+    //--- data
+    var thedata =
+    [
+        { response: "Summer", count: 50000 },
+        { response: "Fall", count: 664182 },
+        { response: "Spring", count: 248124 },
+        { response: "Winter", count: 271214 },
+        { response: "Undecided", count: 81845 }
+    ]
+ 
+    var ds = new YAHOO.util.DataSource(thedata);
+    ds.responseType = YAHOO.util.DataSource.TYPE_JSARRAY;
+    ds.responseSchema = { fields: [ "response", "count" ] };
+ 
+    //--- chart
+    var mychart = new YAHOO.widget.PieChart( "chart", ds,
+    {
+        dataField: "count",
+        categoryField: "response",
+        series: [{}]
+    });
+ 
+ 
+</script> 
+</body>

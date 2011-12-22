@@ -1,0 +1,75 @@
+#wrapper {
+
+    float: left;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+
+#single_badge {
+      padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 1px;
+    margin-bottom:  20px;
+    margin-top:  20px;
+}
+
+.headers {
+    background-color: #d3d3d3;
+    width: 100%;
+    font-size: 13pt;
+}
+
+#badges {
+
+}
+
+#one_badge {
+    float: left;
+    display: block;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#flight_details_layout {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#small_badges {
+    float: left;
+    display: block;
+}
+
+#badges_submit {
+
+    float: right;
+    /*clear: left;*/
+
+}
+
+#one_badge .badge {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#one_badge h2 {
+    color: #029f9d;
+}
+
+#one_badge
+
+#backbutton {
+
+    float: left;
+    clear: left;
+    margin-top: 10px;
+}
